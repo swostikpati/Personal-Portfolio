@@ -40,6 +40,7 @@ const About = () => {
   return (
     <>
       {/* motion. allows to add framer motion and animate */}
+      {/* textVariant animation allows all text containing elements like p tags to be animated */}
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
