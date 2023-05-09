@@ -35,6 +35,10 @@ export const navLinks = [
         title: "Work",
     },
     {
+        id: "project",
+        title: "Projects",
+    },
+    {
         id: "contact",
         title: "Contact",
     },
@@ -116,57 +120,48 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Product Management Intern",
+        company_name: "Lune Data",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "March 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed and implemented product strategies that align with the company's goals and objectives.",
+            "Conducted market research to identify customer needs, market trends, and competitor strategies."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Software Engineering Intern",
+        company_name: "amaxa",
         icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "March 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Developed and maintained software solutions that helped global nonprofits solve real-world problems, such as aiding refugees, educating villages, and stopping climate change.",
+            "Worked collaboratively with a team of passionate individuals from around the world to make a tangible impact in 4-5 months."],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Business Head",
+        company_name: "Blockchain Collective @NYUAD",
+        icon: starbucks,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "January 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Lead various initiatives and projects related to blockchain technology, including events, workshops, research, and networking opportunities.",
+            "Worked closely with other members of the SIG leadership team to develop and implement strategic plans and goals for the group, and to ensure that our activities align with the broader mission and vision of NYU Abu Dhabi."
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Undergraduate Teaching Assistant - Computer Programming for Engineers",
+        company_name: "New York University",
+        icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "September 2022- Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Assisted in delivering course content to a large and diverse student body of over 120 students every semester, including conducting weekly labs and grading quizzes to ensure that students mastered the material.",
+            "Provided personalized feedback and mentoring to students in their term projects, helping them to develop the transferable programming skills and problem-solving abilities they will need as future engineers."]
     },
+
 ];
 
 const testimonials = [

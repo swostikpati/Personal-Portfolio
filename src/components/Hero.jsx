@@ -15,7 +15,7 @@ const Hero = () => {
         {/* heaidng and subheading */}
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#56DDD2]'>Swostik</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}> Fill up <br className='sm:block hidden' />later</p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}> Welcome to my Personal Portfolio!</p>
         </div>
 
       </div>
