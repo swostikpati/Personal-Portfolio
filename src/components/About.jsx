@@ -24,7 +24,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt='web-development'
-          className='w-16 h-16 object-contain'
+          className='w-21 h-21 object-contain'
         />
 
         <h3 className='text-white text-[20px] font-bold text-center'>
@@ -50,7 +50,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Change this please Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odio vero voluptas, ad harum mollitia fugiat dolorem dolor cupiditate obcaecati labore officiis error, atque quaerat debitis necessitatibus nisi soluta molestiae?
+        I am Swostik Pati, a double major in Computer Science and Interactive Media, with a minor in Economics and Design at New York University in Abu Dhabi. I have experience working in various companies in positions such as Full-stack web developer, Product Manager, UI/UX Designer, and Business Analyst.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

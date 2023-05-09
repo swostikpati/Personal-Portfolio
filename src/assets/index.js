@@ -7,6 +7,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import webdev from "./about/webdev.jpg";
+import prod from "./about/prod_manager.jpg";
+import uiux from "./about/uiux.jpg";
+import business from "./about/business_analyst.jpg";
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -32,10 +37,14 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  uiux,
+  business,
   backend,
   creator,
   mobile,
   web,
+  webdev,
+  prod,
   github,
   menu,
   close,
