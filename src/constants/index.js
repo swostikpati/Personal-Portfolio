@@ -348,23 +348,139 @@ const projects = [
     {
         name: "P vs NP Research Paper",
         description:
-            "The paper revisits the famous P vs NP problem and discusses it using layman examples covering several mathematical concepts behind it. Finally, it concludes by providing a paradox that will cause people to think in a completely different way towards the possibility of a solution to the problem.",
+            "The paper revisits the famous P vs NP problem and discusses it using layman examples. Finally, it concludes by providing a paradox that causes people to comprehend the possibility of a solution to the problem in an entirely different way.",
         tags: [
             {
-                name: "nextjs",
+                name: "Research",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Algorithmic Complexity",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "Millenium Prize Problems",
+                color: "green-text-gradient",
+            },
+
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "Albert 2.0",
+        description:
+            "NYU Albert critical to several administrative functions including admissions, course enrollment, etc of NYU. The project is a revamped version of the website, with modern UI designs, an easier user flow, etc. to enhance the overall user experience.",
+        tags: [
+            {
+                name: "React.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Node.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Express.js",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Firebase",
                 color: "pink-text-gradient",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/swostikpati/Albert-2.0",
+    },
+    {
+        name: "ART.txt",
+        description:
+            "The aim of my project was to make a text visualizer using p5.js that could draw grayscale images using text and give users the option of experimenting around with different images and live renders of their video feeds",
+        tags: [
+            {
+                name: "p5.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "APIs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Front-end",
+                color: "green-text-gradient",
+            },
+
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%205/5.2/project1_final",
+    },
+    {
+        name: "Time.Lapse",
+        description:
+            "The aim of my project was to make a text visualizer using p5.js that could draw grayscale images using text and give users the option of experimenting around with different images and live renders of their video feeds",
+        tags: [
+            {
+                name: "Front-End",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Scroll Animation",
+                color: "green-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
+    },
+    {
+        name: "Interactive Video",
+        description:
+            "The aim of my project was to make a text visualizer using p5.js that could draw grayscale images using text and give users the option of experimenting around with different images and live renders of their video feeds",
+        tags: [
+            {
+                name: "Front-End",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Scroll Animation",
+                color: "green-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
+    },
+    {
+        name: "Time.Lapse",
+        description:
+            "The aim of my project was to make a text visualizer using p5.js that could draw grayscale images using text and give users the option of experimenting around with different images and live renders of their video feeds",
+        tags: [
+            {
+                name: "Front-End",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Scroll Animation",
+                color: "green-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
+    },
+    {
+        name: "Time.Lapse",
+        description:
+            "The aim of my project was to make a text visualizer using p5.js that could draw grayscale images using text and give users the option of experimenting around with different images and live renders of their video feeds",
+        tags: [
+            {
+                name: "Front-End",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Scroll Animation",
+                color: "green-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
     },
 ];
 

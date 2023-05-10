@@ -48,9 +48,9 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-white text-[17px] max-w-3xl leading-[30px]'
       >
-        I am Swostik Pati, a double major in Computer Science and Interactive Media, with a minor in Economics and Design at New York University in Abu Dhabi. I have experience working in various companies in positions such as Full-stack web developer, Product Manager, UI/UX Designer, and Business Analyst.
+        I am Swostik Pati, a sophomore double majoring in Computer Science and Interactive Media with minors in Economics and Design, at New York University Abu Dhabi. I have experience working in various companies in positions such as Full-stack web developer, Product Manager, UI/UX Designer, and Business Analyst.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
