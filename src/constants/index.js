@@ -26,7 +26,8 @@ import {
     threejs,
     prod,
     uiux,
-    business
+    business,
+    ip,
 } from "../assets";
 
 export const navLinks = [
@@ -291,81 +292,63 @@ const experiences = [
     },
 
 ];
-
-const testimonials = [
-    {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-];
-
+const testimonials = [];
 const projects = [
     {
-        name: "Car Rent",
-        description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        name: "Interactive Pyramids",
+        description: "The installation is composed of three pyramids that respond to shadows and light, by producing a diverse array of sounds and shades of light that are aesthetically designed to represent and reflect a particular emotion.",
         tags: [
             {
-                name: "react",
+                name: "M4 Feather Hardware",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Micropython",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Filming",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Production",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: ip,
+        source_code_link: "https://desert.nyuadim.com/lifemeetslife/",
     },
     {
-        name: "Job IT",
+        name: "Typerrr.com",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Typerrr is an online multiplayer type-racing game, where people simultaneously finish typing tests (derived from the 1000 most spoken English words database), while competing with each other and seeing the cursor positions of all players in realtime",
         tags: [
             {
-                name: "react",
+                name: "Socket.io",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Node.js",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "NeDB",
                 color: "pink-text-gradient",
             },
+            {
+                name: "Express",
+            },
+            {
+                name: "Bcrypt",
+            }
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/swostikpati/typerrr",
     },
     {
-        name: "Trip Guide",
+        name: "P vs NP Research Paper",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "The paper revisits the famous P vs NP problem and discusses it using layman examples covering several mathematical concepts behind it. Finally, it concludes by providing a paradox that will cause people to think in a completely different way towards the possibility of a solution to the problem.",
         tags: [
             {
                 name: "nextjs",

@@ -31,6 +31,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+// projects
+import ip from "./project_photos/interactive_pyramids.jpg";
+
+
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -68,4 +73,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  ip,
 };
