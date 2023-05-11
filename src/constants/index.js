@@ -432,16 +432,20 @@ const projects = [
         source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
     },
     {
-        name: "Interactive Video",
+        name: "Dumb Choices Only",
         description:
-            "The aim of my project was to make a text visualizer using p5.js that could draw grayscale images using text and give users the option of experimenting around with different images and live renders of their video feeds",
+            "The project was focused on producing an Interactive video in order to create an immersive experience. In this unique endeavor, the team aimed to captivate viewers through muliple layers of storyline where the dumbest of choices were awarded.",
         tags: [
             {
-                name: "Front-End",
+                name: "Adobe Premiere Pro",
                 color: "blue-text-gradient",
             },
             {
-                name: "Scroll Animation",
+                name: "Filming",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Front-end",
                 color: "green-text-gradient",
             },
         ],
@@ -449,33 +453,74 @@ const projects = [
         source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
     },
     {
-        name: "Time.Lapse",
+        name: "Pong - Blind Version",
         description:
-            "The aim of my project was to make a text visualizer using p5.js that could draw grayscale images using text and give users the option of experimenting around with different images and live renders of their video feeds",
+            "A revved up version of the Pong Game with a dynamic \"blindspot\". As the players continue through each rally, the blindspot region keeps increasing and so does the speed of the moving ball making it more and more difficult for both players.", tags: [
+                {
+                    name: "p5.js",
+                    color: "blue-text-gradient",
+                },
+            ],
+        image: tripguide,
+        source_code_link: "https://intro.nyuadim.com/2023/03/07/midterm-project-pong-blindspot-version/",
+    },
+    {
+        name: "The Tiger Grandma",
+        description:
+            "An interactive audio experience focused on producing sound in order to create an immersive story by utilising sound recording, editing devices, and software to create high-quality sound to deliver a traditional Taiwanese folklore story.",
         tags: [
             {
-                name: "Front-End",
+                name: "Audacity",
                 color: "blue-text-gradient",
             },
             {
-                name: "Scroll Animation",
+                name: "Audio Production",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Front-end",
                 color: "green-text-gradient",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
+        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment3_Audio",
     },
     {
-        name: "Time.Lapse",
+        name: "Interactive Comic",
         description:
-            "The aim of my project was to make a text visualizer using p5.js that could draw grayscale images using text and give users the option of experimenting around with different images and live renders of their video feeds",
+            "To love is to hurt.  We decided to explore the beauty of this emotion through our Interactive Comic Experience - \"Before the Coffee Gets Cold\", portrayed through an intense interplay of visual graphics, sound effects, and user interactions.",
         tags: [
             {
-                name: "Front-End",
+                name: "Photoshop",
                 color: "blue-text-gradient",
             },
             {
-                name: "Scroll Animation",
+                name: "Illustrator",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Animation",
+                color: "green-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment2_InteractiveComic/Final%20Implementation/final",
+    },
+    {
+        name: "Interactive Comic",
+        description:
+            "To love is to hurt.  We decided to explore the beauty of this emotion through our Interactive Comic Experience - \"Before the Coffee Gets Cold\", portrayed through an intense interplay of visual graphics, sound effects, and user interactions.",
+        tags: [
+            {
+                name: "Photoshop",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Illustrator",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Animation",
                 color: "green-text-gradient",
             },
         ],
