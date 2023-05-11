@@ -39,7 +39,14 @@ import {
     tiger_grandma,
     timelapse,
     typerrr,
-    finverse
+    finverse,
+    python,
+    mySQL,
+    cpp,
+    arduino,
+    socket,
+    matlab,
+    firebase,
 } from "../assets";
 
 export const navLinks = [
@@ -94,20 +101,8 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
     },
     {
         name: "Node JS",
@@ -118,21 +113,39 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
-        name: "git",
-        icon: git,
+        name: "mySQL",
+        icon: mySQL,
     },
     {
         name: "figma",
         icon: figma,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "Firebase",
+        icon: firebase,
     },
+    {
+        name: "Socket IO",
+        icon: socket,
+    },
+    {
+        name: "Arduino",
+        icon: arduino,
+    },
+    {
+        name: "C/C++",
+        icon: cpp,
+    },
+    {
+        name: "MATLAB",
+        icon: matlab,
+    },
+    {
+        name: "Python",
+        icon: python,
+    },
+
+
 ];
 
 const experiences = [

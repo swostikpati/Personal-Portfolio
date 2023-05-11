@@ -12,6 +12,7 @@ import prod from "./about/prod_manager.jpg";
 import uiux from "./about/uiux.jpg";
 import business from "./about/business_analyst.jpg";
 
+// skills
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -25,6 +26,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cpp from "./tech/cpp.png";
+import python from "./tech/python.png";
+import mySQL from "./tech/mySQL.png";
+import photoshop from "./tech/photoshop.png";
+import arduino from "./tech/arduino.png";
+import firebase from "./tech/firebase.png";
+import socket from "./tech/socket.png";
+import matlab from "./tech/matlab.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -52,6 +61,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  arduino,
+  socket,
+  matlab,
+  firebase,
   finverse,
   arttxt,
   albertv2,
@@ -97,4 +110,8 @@ export {
   jobit,
   tripguide,
   ip,
+  cpp,
+  python,
+  mySQL,
+  photoshop
 };
