@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from "./linkedin.png";
+import instagram from "./instagram.png";
 
 import webdev from "./about/webdev.jpg";
 import prod from "./about/prod_manager.jpg";
@@ -113,5 +115,7 @@ export {
   cpp,
   python,
   mySQL,
-  photoshop
+  photoshop,
+  instagram,
+  linkedin,
 };

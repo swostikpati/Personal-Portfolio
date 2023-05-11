@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { github, linkedin, instagram } from "../assets";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -126,10 +128,43 @@ const Contact = () => {
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+
       >
-        <EarthCanvas />
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <p className={styles.sectionSubText} styles={{ justifyContent: "center" }}>Other ways of contact</p>
+        </div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <p className={styles.sectionHeadText} styles={{ justifyContent: "center" }}>Social Handles</p>
+        </div>
+        {/* <EarthCanvas /> */}
+        <div style={{ display: "flex", justifyContent: "space-around", marginTop: "15%" }}>
+          <a href="https://github.com/swostikpati" className='w-1/5 h-1/5 object-contain'>
+            <img
+              src={github}
+              alt='source code'
+
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/swostikpati" className='w-1/5 h-1/5 object-contain'>
+            <img
+              src={linkedin}
+              alt='source code'
+
+            />
+          </a>
+          <a href="https://www.instagram.com/swostikpati/" className='w-1/5 h-1/5 object-contain'>
+            <img
+              src={instagram}
+              alt='source code'
+
+            />
+          </a>
+
+
+        </div>
+
       </motion.div>
-    </div>
+    </div >
   );
 };
 
