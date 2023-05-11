@@ -131,7 +131,7 @@ const Contact = () => {
 
       >
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <p className={styles.sectionSubText} styles={{ justifyContent: "center" }}>Other ways of contact</p>
+          <p className={styles.sectionSubText} styles={{ justifyContent: "center" }}>Other ways to contact</p>
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <p className={styles.sectionHeadText} styles={{ justifyContent: "center" }}>Social Handles</p>
@@ -159,9 +159,10 @@ const Contact = () => {
 
             />
           </a>
-
-
         </div>
+        {/* <div style={{ display: "flex", justifyContent: "center", marginTop: "15%" }}>
+          <p className={styles.sectionSubText} styles={{ justifyContent: "center" }}>curriculum vitae </p>
+        </div> */}
 
       </motion.div>
     </div >

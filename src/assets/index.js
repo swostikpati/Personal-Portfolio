@@ -57,12 +57,38 @@ import timelapse from "./project_photos/timelapse_website.jpg";
 import typerrr from "./project_photos/typerrr.jpg";
 import finverse from "./project_photos/finverse.jpg";
 
+// experiences
+import amaxa from "./experience_logos/amaxa.png";
+import blank from "./experience_logos/blank.png";
+import blockchain_collective from "./experience_logos/blockchain_collective.png";
+import hackad from "./experience_logos/hackad.png";
+import lune from "./experience_logos/lune.png";
+import MCC from "./experience_logos/MCC.png";
+import microsoft from "./experience_logos/microsoft.png";
+import mycaptain from "./experience_logos/mycaptain.png";
+import nyu from "./experience_logos/nyu.png";
+import start from "./experience_logos/start.png";
+import xrp from "./experience_logos/xrp.png";
+
+
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  amaxa,
+  blank,
+  blockchain_collective,
+  hackad,
+  lune,
+  MCC,
+  microsoft,
+  mycaptain,
+  nyu,
+  start,
+  xrp,
   arduino,
   socket,
   matlab,

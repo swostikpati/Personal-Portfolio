@@ -47,6 +47,17 @@ import {
     socket,
     matlab,
     firebase,
+    amaxa,
+    blank,
+    blockchain_collective,
+    hackad,
+    lune,
+    MCC,
+    microsoft,
+    mycaptain,
+    nyu,
+    start,
+    xrp,
 } from "../assets";
 
 export const navLinks = [
@@ -152,7 +163,7 @@ const experiences = [
     {
         title: "Product Management Intern",
         company_name: "Lune Data",
-        icon: starbucks,
+        icon: lune,
         iconBg: "#383E56",
         date: "March 2023 - Present",
         points: [
@@ -164,7 +175,7 @@ const experiences = [
     {
         title: "Software Engineering Intern",
         company_name: "àmaxa",
-        icon: tesla,
+        icon: amaxa,
         iconBg: "#E6DEDD",
         date: "March 2023 - Present",
         points: [
@@ -174,7 +185,7 @@ const experiences = [
     {
         title: "Business Head",
         company_name: "Blockchain Collective @NYUAD",
-        icon: starbucks,
+        icon: blockchain_collective,
         iconBg: "#383E56",
         date: "January 2023 - Present",
         points: [
@@ -185,7 +196,7 @@ const experiences = [
     {
         title: "Undergraduate Teaching Assistant - Computer Programming for Engineers",
         company_name: "New York University",
-        icon: tesla,
+        icon: nyu,
         iconBg: "#E6DEDD",
         date: "September 2022- Present",
         points: [
@@ -195,7 +206,7 @@ const experiences = [
     {
         title: "Research Assistant - AIM Lab",
         company_name: "New York University",
-        icon: starbucks,
+        icon: nyu,
         iconBg: "#383E56",
         date: "September 2022 - December 2022",
         points: [
@@ -205,7 +216,7 @@ const experiences = [
     {
         title: "First-Year Peer Facilitator",
         company_name: "New York University",
-        icon: tesla,
+        icon: nyu,
         iconBg: "#E6DEDD",
         date: "August 2022 - December 2022",
         points: [
@@ -215,7 +226,7 @@ const experiences = [
     {
         title: "Business Analyst",
         company_name: "MCC Economics & Finance",
-        icon: starbucks,
+        icon: MCC,
         iconBg: "#383E56",
         date: "August 2022 - Present",
         points: [
@@ -225,7 +236,7 @@ const experiences = [
     {
         title: "Microsoft Learn Student Ambassador - Alpha",
         company_name: "Microsoft",
-        icon: tesla,
+        icon: microsoft,
         iconBg: "#E6DEDD",
         date: "October 2021 - Present",
         points: [
@@ -234,7 +245,7 @@ const experiences = [
     {
         title: "Start Hack 2023 Hackathon - World Top 3",
         company_name: "START Global",
-        icon: starbucks,
+        icon: start,
         iconBg: "#383E56",
         date: "March 2023",
         points: [
@@ -245,7 +256,7 @@ const experiences = [
     {
         title: "Executive Board - Director of Events",
         company_name: "HackAD, NYUAD",
-        icon: tesla,
+        icon: hackad,
         iconBg: "#E6DEDD",
         date: "May 2022 - February 2023",
         points: [
@@ -255,32 +266,15 @@ const experiences = [
     {
         title: "Research Assistant - Social Research and Public Policy",
         company_name: "NYUAD Social Science",
-        icon: tesla,
+        icon: nyu,
         iconBg: "#E6DEDD",
         date: "May 2022 - February 2023",
         points: []
     },
     {
-        title: "Start Hack 2023 Hackathon - World Top 3",
-        company_name: "START Global",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2023",
-        points: [
-            "HackAD is the tech and hacker culture SIG at NYUAD. We organize annual hackathons and workshops that teach various programming skills to students of all levels. We promote sharing knowledge, learning as a community and writing beautiful, concise code."],
-    },
-    {
-        title: "Research Assistant - Social Research and Public Policy",
-        company_name: "NYUAD Social Science",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "September 2022 - December 2023",
-        points: []
-    },
-    {
         title: "XRP Campus Ambassador",
         company_name: "REPL XRP Campus Ambassador",
-        icon: starbucks,
+        icon: xrp,
         iconBg: "#383E56",
         date: "August 2022 - December 2022",
         points: [
@@ -289,7 +283,7 @@ const experiences = [
     {
         title: "Founder, Chief Technology Officer",
         company_name: "Parenaid | Self-employed",
-        icon: tesla,
+        icon: blank,
         iconBg: "#E6DEDD",
         date: "August 2021 - March 2022",
         points: ["Parenaid synthesises the lives of parents and their kids by bringing relevant resources at parents’ disposal, connecting them with child development professionals, charting personalised parenting pathways and individual child assessment systems which makes it possible to intertwine parents lives’ with their children.",]
@@ -297,7 +291,7 @@ const experiences = [
     {
         title: "UI/UX Designer, Founding Team",
         company_name: "Blind Dating App | Self-employed",
-        icon: starbucks,
+        icon: blank,
         iconBg: "#383E56",
         date: "September 2021 - December 2021",
         points: [
@@ -308,7 +302,7 @@ const experiences = [
     {
         title: "Business Development Manager",
         company_name: "My Captain - The Climber",
-        icon: starbucks,
+        icon: mycaptain,
         iconBg: "#383E56",
         date: "September 2021 - December 2021",
         points: [
