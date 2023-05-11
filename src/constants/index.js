@@ -28,6 +28,18 @@ import {
     uiux,
     business,
     ip,
+    arttxt,
+    albertv2,
+    dumb_choices,
+    finease,
+    interactive_comic,
+    interactive_pyramids,
+    pnp_research,
+    pong,
+    tiger_grandma,
+    timelapse,
+    typerrr,
+    finverse
 } from "../assets";
 
 export const navLinks = [
@@ -342,30 +354,33 @@ const projects = [
                 name: "Bcrypt",
             }
         ],
-        image: jobit,
+        image: typerrr,
         source_code_link: "https://github.com/swostikpati/typerrr",
     },
     {
-        name: "P vs NP Research Paper",
+        name: "The Tiger Grandma",
         description:
-            "The paper revisits the famous P vs NP problem and discusses it using layman examples. Finally, it concludes by providing a paradox that causes people to comprehend the possibility of a solution to the problem in an entirely different way.",
+            "An interactive audio experience focused on producing sound in order to create an immersive story by utilising sound recording, editing devices, and software to create high-quality sound to deliver a traditional Taiwanese folklore story.",
         tags: [
             {
-                name: "Research",
+                name: "Audacity",
                 color: "blue-text-gradient",
             },
             {
-                name: "Algorithmic Complexity",
+                name: "Audio Production",
                 color: "green-text-gradient",
             },
             {
-                name: "Millenium Prize Problems",
+                name: "Sound Design",
                 color: "green-text-gradient",
             },
-
+            {
+                name: "Front-end",
+                color: "green-text-gradient",
+            },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: tiger_grandma,
+        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment3_Audio",
     },
     {
         name: "Albert 2.0",
@@ -389,7 +404,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: albertv2,
         source_code_link: "https://github.com/swostikpati/Albert-2.0",
     },
     {
@@ -411,7 +426,7 @@ const projects = [
             },
 
         ],
-        image: tripguide,
+        image: arttxt,
         source_code_link: "https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%205/5.2/project1_final",
     },
     {
@@ -428,7 +443,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: tripguide,
+        image: timelapse,
         source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
     },
     {
@@ -449,7 +464,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: tripguide,
+        image: dumb_choices,
         source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
     },
     {
@@ -465,7 +480,7 @@ const projects = [
                     color: "blue-text-gradient",
                 },
             ],
-        image: tripguide,
+        image: pong,
         source_code_link: "https://intro.nyuadim.com/2023/03/07/midterm-project-pong-blindspot-version/",
     },
     {
@@ -487,29 +502,27 @@ const projects = [
             },
 
         ],
-        image: tripguide,
+        image: finease,
         source_code_link: "https://github.com/swostikpati/FinEase",
     },
     {
-        name: "The Tiger Grandma",
+        name: "P vs NP Research Paper",
         description:
-            "An interactive audio experience focused on producing sound in order to create an immersive story by utilising sound recording, editing devices, and software to create high-quality sound to deliver a traditional Taiwanese folklore story.",
+            "The paper revisits the famous P vs NP problem and discusses it using layman examples. Finally, it concludes by providing a paradox that causes people to comprehend the possibility of a solution to the problem in an entirely different way.",
         tags: [
+
             {
-                name: "Audacity",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "Audio Production",
+                name: "Algorithms",
                 color: "green-text-gradient",
             },
             {
-                name: "Front-end",
+                name: "Millenium Prize Problems",
                 color: "green-text-gradient",
             },
+
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment3_Audio",
+        image: pnp_research,
+        source_code_link: "https://www.ijariit.com/manuscripts/v6i4/V6I4-1341.pdf",
     },
     {
         name: "FinVerse",
@@ -529,7 +542,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: tripguide,
+        image: finverse,
         source_code_link: "https://github.com/swostikpati/start-hack-2023",
     },
     {
@@ -550,7 +563,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: tripguide,
+        image: interactive_comic,
         source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment2_InteractiveComic/Final%20Implementation/final",
     },
 
