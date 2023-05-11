@@ -460,9 +460,35 @@ const projects = [
                     name: "p5.js",
                     color: "blue-text-gradient",
                 },
+                {
+                    name: "Game",
+                    color: "blue-text-gradient",
+                },
             ],
         image: tripguide,
         source_code_link: "https://intro.nyuadim.com/2023/03/07/midterm-project-pong-blindspot-version/",
+    },
+    {
+        name: "FinEase",
+        description:
+            "FinEase aims to increase the access of financial literacy for common people thereby empowering them to make strong and well-informed financial decisions. This project provides the User Interface mockups and performs deep economic analysis.",
+        tags: [
+            {
+                name: "Figma",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Economics",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Figma",
+                color: "blue-text-gradient",
+            },
+
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/swostikpati/FinEase",
     },
     {
         name: "The Tiger Grandma",
@@ -486,25 +512,25 @@ const projects = [
         source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment3_Audio",
     },
     {
-        name: "Interactive Comic",
+        name: "FinVerse",
         description:
-            "To love is to hurt.  We decided to explore the beauty of this emotion through our Interactive Comic Experience - \"Before the Coffee Gets Cold\", portrayed through an intense interplay of visual graphics, sound effects, and user interactions.",
+            "Globally, only 1-in-3 adults are 'financially literate'. Access to financial data and financial data insights are often presented in ways that are boring and difficult to interpret. Our mission is to make financial data easier to interpret and visualize.",
         tags: [
             {
-                name: "Photoshop",
+                name: "VR",
                 color: "blue-text-gradient",
             },
             {
-                name: "Illustrator",
+                name: "FinTech",
                 color: "blue-text-gradient",
             },
             {
-                name: "Animation",
+                name: "Hackathon",
                 color: "green-text-gradient",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment2_InteractiveComic/Final%20Implementation/final",
+        source_code_link: "https://github.com/swostikpati/start-hack-2023",
     },
     {
         name: "Interactive Comic",
@@ -525,8 +551,9 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
+        source_code_link: "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment2_InteractiveComic/Final%20Implementation/final",
     },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
