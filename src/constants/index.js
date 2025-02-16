@@ -415,6 +415,111 @@ const experiences = [
 const testimonials = [];
 const projects = [
   {
+    name: "BagSafe",
+    description:
+      "BagSafe is an RFID-powered smart baggage tracking system designed to enhance airport security, reduce lost luggage incidents, and streamline baggage claim processes.",
+    tags: [
+      {
+        name: "Pitch",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ip,
+    source_code_link: "https://github.com/swostikpati/BagSafe",
+  },
+  {
+    name: "Nurse AI",
+    description:
+      "  Nurse AI is a full-stack tool leveraging LLMs to enhance communication pathways for medical personnel, impacting thousands of graduate Emirati nurses. It streamlines SOAP note generation, ensuring medical accuracy and efficiency.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenAI APIs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ip,
+    source_code_link: "https://github.com/swostikpati/Nurse-AI",
+  },
+  {
+    name: "ANXIETI-E_Robot-Car",
+    description:
+      "The ANXIETI-E robot car is a wireless robot designed to perform both autonomous movements using object detection and edge detection, and manual control using radio control. This movement would be both controlled and reversed mapped to an interface in p5.",
+    tags: [
+      {
+        name: "Arduino - Physical Computing",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "p5.js - Creative Coding",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ip,
+    source_code_link:
+      "https://intro.nyuadim.com/2023/05/12/anxieti-e-robot-car/",
+  },
+  {
+    name: "Case Study - India's UPI",
+    description:
+      "This report delves into the transformative world of digital transactions, particularly focusing on the rise of mobile banking and fintech startups in India. A pivotal aspect of this revolution has been the introduction of government initiatives like the Unified Payments Interface (UPI), which have democratized financial services, enabling seamless and fee-free money transfers across even the most remote parts of India.",
+    tags: [
+      {
+        name: "Pandas",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ip,
+    source_code_link:
+      "https://github.com/swostikpati/Data-Analysis-on-India-s-UPI",
+  },
+  {
+    name: "Machine Lab - Ferris Wheel",
+    description:
+      " The project is a motorized amusement ride - a Ferris Wheel - built as part of a Physical Computing class project. Utilizing Arduino, high-torque motors, and NeoPixels, it brings a dynamic and immersive experience to a larger amusement park installation.",
+    tags: [
+      {
+        name: "Physical Computing",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ip,
+    source_code_link: "https://github.com/swostikpati/Machine-Lab",
+  },
+  {
+    name: "Memory Threads",
+    description:
+      "'Memory Threads' is a streamlined and efficient app designed for personal reflection and memory curation. Each user creates a journal entry daily, embedding their thoughts, experiences, and any media links that highlight the day's significance.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ClerkJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ip,
+    source_code_link:
+      "https://github.com/swostikpati/Memory-Thread--Full-Stack-Web-Application",
+  },
+  {
     name: "Interactive Pyramids",
     description:
       "The installation is composed of three pyramids that respond to shadows and light, by producing a diverse array of sounds and shades of light that are aesthetically designed to represent and reflect a particular emotion.",
@@ -466,57 +571,33 @@ const projects = [
     image: typerrr,
     source_code_link: "https://github.com/swostikpati/typerrr",
   },
-  {
-    name: "The Tiger Grandma",
-    description:
-      "An interactive audio experience focused on producing sound in order to create an immersive story by utilising sound recording, editing devices, and software to create high-quality sound to deliver a traditional Taiwanese folklore story.",
-    tags: [
-      {
-        name: "Audacity",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Audio Production",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Sound Design",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Front-end",
-        color: "green-text-gradient",
-      },
-    ],
-    image: tiger_grandma,
-    source_code_link:
-      "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment3_Audio",
-  },
-  {
-    name: "Albert 2.0",
-    description:
-      "NYU Albert critical to several administrative functions including admissions, course enrollment, etc of NYU. The project is a revamped version of the website, with modern UI designs, an easier user flow, etc. to enhance the overall user experience.",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Express.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: albertv2,
-    source_code_link: "https://github.com/swostikpati/Albert-2.0",
-  },
+  // {
+  //   name: "The Tiger Grandma",
+  //   description:
+  //     "An interactive audio experience focused on producing sound in order to create an immersive story by utilising sound recording, editing devices, and software to create high-quality sound to deliver a traditional Taiwanese folklore story.",
+  //   tags: [
+  //     {
+  //       name: "Audacity",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Audio Production",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Sound Design",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Front-end",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: tiger_grandma,
+  //   source_code_link:
+  //     "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment3_Audio",
+  // },
+
   {
     name: "ART.txt",
     description:
@@ -557,28 +638,29 @@ const projects = [
     source_code_link:
       "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
   },
-  {
-    name: "Dumb Choices Only",
-    description:
-      "The project was focused on producing an Interactive video in order to create an immersive experience. In this unique endeavor, the team aimed to captivate viewers through muliple layers of storyline where the dumbest of choices were awarded.",
-    tags: [
-      {
-        name: "Adobe Premiere Pro",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Filming",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Front-end",
-        color: "green-text-gradient",
-      },
-    ],
-    image: dumb_choices,
-    source_code_link:
-      "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
-  },
+
+  // {
+  //   name: "Dumb Choices Only",
+  //   description:
+  //     "The project was focused on producing an Interactive video in order to create an immersive experience. In this unique endeavor, the team aimed to captivate viewers through muliple layers of storyline where the dumbest of choices were awarded.",
+  //   tags: [
+  //     {
+  //       name: "Adobe Premiere Pro",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Filming",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Front-end",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: dumb_choices,
+  //   source_code_link:
+  //     "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment1_30MFF",
+  // },
   {
     name: "Pong - Blind Version",
     description:
@@ -657,27 +739,52 @@ const projects = [
     source_code_link: "https://github.com/swostikpati/start-hack-2023",
   },
   {
-    name: "Interactive Comic",
+    name: "Albert 2.0",
     description:
-      'To love is to hurt.  We decided to explore the beauty of this emotion through our Interactive Comic Experience - "Before the Coffee Gets Cold", portrayed through an intense interplay of visual graphics, sound effects, and user interactions.',
+      "NYU Albert critical to several administrative functions including admissions, course enrollment, etc of NYU. The project is a revamped version of the website, with modern UI designs, an easier user flow, etc. to enhance the overall user experience.",
     tags: [
       {
-        name: "Photoshop",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "Illustrator",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Animation",
+        name: "Node.js",
         color: "green-text-gradient",
       },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
     ],
-    image: interactive_comic,
-    source_code_link:
-      "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment2_InteractiveComic/Final%20Implementation/final",
+    image: albertv2,
+    source_code_link: "https://github.com/swostikpati/Albert-2.0",
   },
+  // {
+  //   name: "Interactive Comic",
+  //   description:
+  //     'To love is to hurt.  We decided to explore the beauty of this emotion through our Interactive Comic Experience - "Before the Coffee Gets Cold", portrayed through an intense interplay of visual graphics, sound effects, and user interactions.',
+  //   tags: [
+  //     {
+  //       name: "Photoshop",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Illustrator",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Animation",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: interactive_comic,
+  //   source_code_link:
+  //     "https://github.com/swostikpati/Communications-Lab-Spring-23/tree/main/Assignment2_InteractiveComic/Final%20Implementation/final",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
