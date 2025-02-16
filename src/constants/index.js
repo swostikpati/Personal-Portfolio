@@ -415,7 +415,50 @@ const experiences = [
 const testimonials = [];
 const projects = [
   {
-    name: "BagSafe",
+    name: "Apple Clone",
+    description:
+      "A clone of the Apple website created in a single evening using React.js featuring the MacBook Pro",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ip,
+    source_code_link: "https://github.com/swostikpati/apple-clone",
+  },
+  {
+    name: "NYUAD Issue Resolution Portal",
+    description:
+      "The NYUAD Issue Resolution Platform is a web-based application designed to facilitate streamlined communication and issue resolution between students and administrative departments at NYU Abu Dhabi.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GitHub Actions",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Passport.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ip,
+    source_code_link:
+      "https://github.com/swostikpati/NYU-Abu-Dhabi-Issue-Resolution-Portal",
+  },
+  {
+    name: "BagSafe Pitch",
     description:
       "BagSafe is an RFID-powered smart baggage tracking system designed to enhance airport security, reduce lost luggage incidents, and streamline baggage claim processes.",
     tags: [
