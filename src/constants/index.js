@@ -159,9 +159,79 @@ const technologies = [
 
 const experiences = [
   {
+    title: "SWE and Design Intern",
+    company_name: "Center for Interacting Urban Networks",
+    icon: blank,
+    iconBg: "#383E56",
+    date: "July 2024 - Present",
+    points: [
+      "Engineered dynamic dashboards visualizing air quality, printing, and food waste data from universities around UAE.",
+      "Spearheading the design of an impactful campus dining dashboard to curb food waste using MERN, Docker, and AWS.",
+    ],
+  },
+  {
+    title: "Technology and Product Intern",
+    company_name: "Callsign Technolgies",
+    icon: blank,
+    iconBg: "#383E56",
+    date: "August 2024 - December 2024",
+    points: [
+      "Identified a $170 billion expansion opportunity through market research, root-cause, competitor, and data analysis.",
+      "Delivered a product pitch highly praised by senior leadership (MD and Lead PO) who now drive its implementation.",
+      "Automated User Acceptance Testing (UAT) using Spring Boot and Serenity, reducing Release-To-Live times by 7%.",
+    ],
+  },
+  {
+    title: "Dev Team Lead",
+    company_name: "iGEM @NYUAD",
+    icon: blank,
+    iconBg: "#383E56",
+    date: "February 2024 - October 2024",
+    points: [
+      "Led Wiki development using React, ShadcnUI, Tailwind, etc., in the year-long multidisciplinary research project.",
+      "Bagged the Gold Medal and Best Conservation Project nomination at the iGEM Grand Jamboree, Paris (8000+ participants).",
+    ],
+  },
+  {
+    title: "Technical Consulting Intern",
+    company_name: "Ernst & Young",
+    icon: blank,
+    iconBg: "#383E56",
+    date: "May 2024 - July 2024",
+    points: [
+      "Delivered tailored consulting solutions within the SAP Cloud Process Integration Suite, addressing client-specific needs and optimizing their cloud integration strategies.",
+      "Developed, deployed, and tested robust integration flows using SAP Cloud Process Integration Suite, solving significant bugs and enhancing system performance, contributing to seamless business processes for clients.",
+      "As an Integration Developer, gained hands-on experience with SAP technologies, creating basic to complex integration flows utilizing features such as message mapping, content enricher, request-reply, data stores, and Groovy script. Effectively leveraged SAP CPI capabilities to drive successful implementation and client satisfaction.",
+    ],
+  },
+  {
+    title: "Computer Science Major Representative",
+    company_name: "NYU Student Government Assembly",
+    icon: blank,
+    iconBg: "#383E56",
+    date: "February 2024 - May 2024",
+    points: [
+      "Represented 800+ computer science students, working closely with the Program Head and Dean of Science to address key student concerns and enhance their academic experience.",
+      "Designed and pitched a transformative internship course for the curriculum, aligning industry needs with academic goals.",
+      "Gathered insights from 200+ students through a detailed survey and presented a compelling, data-backed case to senior university administrators, leading to impactful discussions and outcomes.",
+    ],
+  },
+  {
+    title: "Research Assistant - Full Stack Web Development + LLM Integration",
+    company_name: "Mubadala Health",
+    icon: blank,
+    iconBg: "#383E56",
+    date: "January 2024 - May 2024",
+    points: [
+      "Research and Analysis: Conducted in-depth literature reviews and research on AI and human-computer interaction, informing the design and development of a communication tool tailored for nursing education.",
+      "User-Centered Development: Engaged with nurse trainees to identify key communication challenges, developing the Nurse AI application on the MERN stack with OpenAI API integration (Whisper and GPT) to address these issues.",
+      "Stakeholder Engagement and Impact: Presented the Nurse AI tool to Mubadala stakeholders, showcasing its capabilities in enhancing nursing education by improving efficiency in communication tasks like SOAP note generation.",
+    ],
+  },
+  {
     title: "Teaching Assistant (Grader and Tutor)",
     company_name: "NYU Courant Institute of Mathematical Sciences",
-    icon: lune,
+    icon: blank,
     iconBg: "#383E56",
     date: "September 2023 - December 2023 ",
     points: [
@@ -172,7 +242,7 @@ const experiences = [
   {
     title: "Undergraduate Summer Research Intern - UGSRP",
     company_name: "NYU Tandon School of Engineering",
-    icon: lune,
+    icon: blank,
     iconBg: "#383E56",
     date: "June 2023 - August 2023",
     points: [
@@ -265,7 +335,7 @@ const experiences = [
     company_name: "Microsoft",
     icon: microsoft,
     iconBg: "#E6DEDD",
-    date: "October 2021 - Present",
+    date: "October 2021 - Jan 2024",
     points: [
       "Microsoft Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills for the future. ",
     ],

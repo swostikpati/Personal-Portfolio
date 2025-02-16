@@ -75,7 +75,7 @@ const Experience = () => {
         Work Experience.
       </h2>
 
-      <div className="mt-20 flex flex-col max-h-[100vh] overflow-y-auto overflow-x-hidden">
+      <div className="mt-20 flex flex-col max-h-[80vh] overflow-y-auto overflow-x-hidden">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
