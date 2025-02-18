@@ -72,7 +72,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -80,45 +80,45 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className="mt-12 flex flex-col gap-8"
         >
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Your Name</span>
             <input
-              type='text'
-              name='name'
+              type="text"
+              name="name"
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className='bg-black py-4 px-6 placeholder:text-gray rounded-lg outline-none border-none font-medium'
+              className="bg-black py-4 px-6 placeholder:text-gray rounded-lg outline-none border-none font-medium"
             />
           </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Your email</span>
             <input
-              type='email'
-              name='email'
+              type="email"
+              name="email"
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className='bg-black py-4 px-6 placeholder:text-gray rounded-lg outline-none border-none font-medium'
+              className="bg-black py-4 px-6 placeholder:text-gray rounded-lg outline-none border-none font-medium"
             />
           </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
               rows={7}
-              name='message'
+              name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
-              className='bg-black py-4 px-6 placeholder:text-gray rounded-lg outline-none border-none font-medium'
+              placeholder="What you want to say?"
+              className="bg-black py-4 px-6 placeholder:text-gray rounded-lg outline-none border-none font-medium"
             />
           </label>
 
           <button
-            type='submit'
-            className='bg-black py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            type="submit"
+            className="bg-black py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
           >
             {loading ? "Sending..." : "Send"}
           </button>
@@ -127,45 +127,56 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <p className={styles.sectionSubText} styles={{ justifyContent: "center" }}>Other ways to contact</p>
+          <p
+            className={styles.sectionSubText}
+            styles={{ justifyContent: "center" }}
+          >
+            Other ways to contact
+          </p>
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <p className={styles.sectionHeadText} styles={{ justifyContent: "center" }}>Social Handles</p>
+          <p
+            className={styles.sectionHeadText}
+            styles={{ justifyContent: "center" }}
+          >
+            Social Handles
+          </p>
         </div>
         {/* <EarthCanvas /> */}
-        <div style={{ display: "flex", justifyContent: "space-around", marginTop: "15%" }}>
-          <a href="https://github.com/swostikpati" className='w-1/5 h-1/5 object-contain'>
-            <img
-              src={github}
-              alt='source code'
-
-            />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            marginTop: "15%",
+          }}
+        >
+          <a
+            href="https://github.com/swostikpati"
+            className="w-1/5 h-1/5 object-contain"
+          >
+            <img src={github} alt="source code" />
           </a>
-          <a href="https://www.linkedin.com/in/swostikpati" className='w-1/5 h-1/5 object-contain'>
-            <img
-              src={linkedin}
-              alt='source code'
-
-            />
+          <a
+            href="https://www.linkedin.com/in/swostikpati"
+            className="w-1/5 h-1/5 object-contain"
+          >
+            <img src={linkedin} alt="source code" />
           </a>
-          <a href="https://www.instagram.com/swostikpati/" className='w-1/5 h-1/5 object-contain'>
-            <img
-              src={instagram}
-              alt='source code'
-
-            />
+          <a
+            href="https://www.instagram.com/swostikpati/"
+            className="w-1/5 h-1/5 object-contain"
+          >
+            <img src={instagram} alt="source code" />
           </a>
         </div>
         {/* <div style={{ display: "flex", justifyContent: "center", marginTop: "15%" }}>
           <p className={styles.sectionSubText} styles={{ justifyContent: "center" }}>curriculum vitae </p>
         </div> */}
-
       </motion.div>
-    </div >
+    </div>
   );
 };
 

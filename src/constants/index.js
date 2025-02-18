@@ -77,23 +77,29 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "my-blogs",
+    title: "My Blogs",
+    external: true, // Custom property to check if it's an external link
+    url: "https://linktr.ee/swostikpati", // Replace with actual blog URL
+  },
 ];
 
 const services = [
   {
-    title: "Full Stack Web Developer",
+    title: "Full Stack Web Development",
     icon: webdev,
   },
   {
-    title: "Product Manager",
+    title: "Product Management",
     icon: prod,
   },
   {
-    title: "Consultant",
+    title: "UI/UX Design",
     icon: uiux,
   },
   {
-    title: "Business Analyst",
+    title: "Consulting",
     icon: business,
   },
 ];
@@ -417,7 +423,7 @@ const projects = [
   {
     name: "Apple Clone",
     description:
-      "A clone of the Apple website created in a single evening using React.js featuring the MacBook Pro",
+      "A clone of the Apple website created in a single evening using React.js featuring the MacBook Pro. It was implemented fully in React and used framer-motion for animations",
     tags: [
       {
         name: "React.js",
@@ -432,9 +438,9 @@ const projects = [
     source_code_link: "https://github.com/swostikpati/apple-clone",
   },
   {
-    name: "NYUAD Issue Resolution Portal",
+    name: "NYUAD Issue Portal",
     description:
-      "The NYUAD Issue Resolution Platform is a web-based application designed to facilitate streamlined communication and issue resolution between students and administrative departments at NYU Abu Dhabi.",
+      "The NYUAD Issue Resolution Platform is a web-based application designed to facilitate streamlined communication and issue resolution between students and administrative departments at NYUAD.",
     tags: [
       {
         name: "MERN",
@@ -445,11 +451,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "GitHub Actions",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Passport.js",
+        name: "CI/CD",
         color: "blue-text-gradient",
       },
     ],
@@ -460,7 +462,7 @@ const projects = [
   {
     name: "BagSafe Pitch",
     description:
-      "BagSafe is an RFID-powered smart baggage tracking system designed to enhance airport security, reduce lost luggage incidents, and streamline baggage claim processes.",
+      "BagSafe is an RFID-powered smart baggage tracking system designed to enhance airport security, reduce lost luggage incidents, and streamline baggage claim processes. The report includes detailed market research, MVP, business model, and interviews",
     tags: [
       {
         name: "Pitch",
@@ -494,7 +496,7 @@ const projects = [
   {
     name: "ANXIETI-E_Robot-Car",
     description:
-      "The ANXIETI-E robot car is a wireless robot designed to perform both autonomous movements using object detection and edge detection, and manual control using radio control. This movement would be both controlled and reversed mapped to an interface in p5.",
+      "The ANXIETI-E robot car is a wireless robot designed to perform both autonomous movements using object detection and edge detection, and manual control using radio control.",
     tags: [
       {
         name: "Arduino - Physical Computing",
@@ -512,7 +514,7 @@ const projects = [
   {
     name: "Case Study - India's UPI",
     description:
-      "This report delves into the transformative world of digital transactions, particularly focusing on the rise of mobile banking and fintech startups in India. A pivotal aspect of this revolution has been the introduction of government initiatives like the Unified Payments Interface (UPI), which have democratized financial services, enabling seamless and fee-free money transfers across even the most remote parts of India.",
+      "This report delves into the transformative world of digital transactions, particularly focusing on the rise of mobile banking and fintech startups in India. The report delves into UPI, which has democratized financial services, enabling seamless money transfers across even the most remote parts of India.",
     tags: [
       {
         name: "Pandas",
